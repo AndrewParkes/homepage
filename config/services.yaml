@@ -1,0 +1,55 @@
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- DNS:
+    - pihole:
+        icon: pi-hole.png
+        href: https://{{HOMEPAGE_VAR_PIHOLE_URL}}
+        description: pihole
+        ping: {{HOMEPAGE_VAR_PIHOLE_URL}}
+        widget:
+          type: pihole
+          url: http://{{HOMEPAGE_VAR_PIHOLE_IP}}
+          key: {{HOMEPAGE_VAR_PIHOLE_API_KEY}}
+
+    - traefik:
+        icon: traefik.png
+        href: https://{{HOMEPAGE_VAR_TRAEFIK_URL}}
+        description: traefik
+        ping: {{HOMEPAGE_VAR_TRAEFIK_URL}}
+        widget:
+          type: traefik
+          url: https://{{HOMEPAGE_VAR_TRAEFIK_IP}}
+          username: {{HOMEPAGE_VAR_TRAEFIK_USER}}
+          password: {{HOMEPAGE_VAR_TRAEFIK_PASS}}
+
+- Hypervisor:
+    - Proxmox:
+        icon: proxmox.png
+        href: https://{{HOMEPAGE_VAR_PROXMOX_IP}}
+        description: Proxmox VE
+        ping: {{HOMEPAGE_VAR_PROXMOX_IP}}
+        widget:
+          type: proxmox
+          url: https://{{HOMEPAGE_VAR_PROXMOX_IP}}
+          username: {{HOMEPAGE_VAR_PROXMOX_USER}}
+          password: {{HOMEPAGE_VAR_PROXMOX_API_KEY}}
+
+- Home Automation:
+    - homeassistant:
+        icon: home-assistant.png
+        href: https://{{HOMEPAGE_VAR_HA_IP}}
+        description: homeassistant
+        ping: {{HOMEPAGE_VAR_HA_IP}}
+
+- Network:
+    - unifi:
+        icon: unifi.svg
+        href: https://{{HOMEPAGE_VAR_UNIFI_IP}}
+        description: unfi
+        ping: {{HOMEPAGE_VAR_UNIFI_IP}}
+        widget:
+          type: unifi
+          url: https://{{HOMEPAGE_VAR_UNIFI_IP}}
+          username: {{HOMEPAGE_VAR_UNIFI_USER}}
+          password: {{HOMEPAGE_VAR_UNIFI_PASSWORD}}
