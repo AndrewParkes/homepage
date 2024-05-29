@@ -8,7 +8,7 @@
 
 Forcing docker to fully restart and pickup new .env file changes
 
-`sudo docker ps -d --force-recreate`
+`docker compose up -d --force-recreate`
 
 ## Tutorial
 
