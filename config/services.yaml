@@ -19,7 +19,7 @@
         ping: {{HOMEPAGE_VAR_TRAEFIK_URL}}
 
 - Hypervisor:
-    - Proxmox:
+    - proxmox:
         icon: proxmox.png
         href: https://{{HOMEPAGE_VAR_PROXMOX_IP}}
         description: Proxmox VE
@@ -48,6 +48,11 @@
           url: https://{{HOMEPAGE_VAR_UNIFI_IP}}
           username: {{HOMEPAGE_VAR_UNIFI_USER}}
           password: {{HOMEPAGE_VAR_UNIFI_PASSWORD}}
+    - cloudflareddns:
+        icon: cloudflare.png
+        href: https://{{HOMEPAGE_VAR_CLOUDFLAREDDNS_IP}}
+        description: cloudflare ddns
+        ping: {{HOMEPAGE_VAR_CLOUDFLAREDDNS_IP}}
 
 - Games Portal:
     - pterodactyl:
@@ -61,8 +66,8 @@
           key: {{HOMEPAGE_VAR_PTERODACTYL_API_KEY}}
 
 - Games:
-    - factio:
+    - factioserver:
         icon: https://forums.factorio.com/images/ext/422c32262d4b0e78baa2846473aa0e40.png
         href: https://{{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
-        description: pterodactyl
+        description: factio server
         ping: {{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
