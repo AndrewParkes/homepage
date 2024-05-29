@@ -2,7 +2,7 @@
 
 ## Description
 
-Homepage Dashboard for quickly accessing services and pages.
+[Homepage Dashboard](github.com/gethomepage/homepage]) for quickly accessing services and pages.
 
 ## Quick commands
 

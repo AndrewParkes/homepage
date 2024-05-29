@@ -17,11 +17,6 @@
         href: https://{{HOMEPAGE_VAR_TRAEFIK_URL}}
         description: traefik
         ping: {{HOMEPAGE_VAR_TRAEFIK_URL}}
-        widget:
-          type: traefik
-          url: https://{{HOMEPAGE_VAR_TRAEFIK_IP}}
-          username: {{HOMEPAGE_VAR_TRAEFIK_USER}}
-          password: {{HOMEPAGE_VAR_TRAEFIK_PASS}}
 
 - Hypervisor:
     - Proxmox:
@@ -53,3 +48,21 @@
           url: https://{{HOMEPAGE_VAR_UNIFI_IP}}
           username: {{HOMEPAGE_VAR_UNIFI_USER}}
           password: {{HOMEPAGE_VAR_UNIFI_PASSWORD}}
+
+- Games Portal:
+    - pterodactyl:
+        icon: pterodactyl.svg
+        href: https://{{HOMEPAGE_VAR_PTERODACTYL_IP}}
+        description: pterodactyl
+        ping: {{HOMEPAGE_VAR_PTERODACTYL_IP}}
+        widget:
+          type: pterodactyl
+          url: https://{{HOMEPAGE_VAR_PTERODACTYL_IP}}
+          key: {{HOMEPAGE_VAR_PTERODACTYL_API_KEY}}
+
+- Games:
+    - factio:
+        icon: https://forums.factorio.com/images/ext/422c32262d4b0e78baa2846473aa0e40.png
+        href: https://{{HOMEPAGE_VAR_FACTORIO_IP}}
+        description: pterodactyl
+        ping: {{HOMEPAGE_VAR_FACTORIO_IP}}

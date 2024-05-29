@@ -29,3 +29,11 @@ layout:
     header: true
     style: row
     columns: 4
+  Games Portal:
+    header: true
+    style: row
+    columns: 4
+  Games:
+    header: false
+    style: row
+    columns: 4
