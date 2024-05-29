@@ -63,6 +63,6 @@
 - Games:
     - factio:
         icon: https://forums.factorio.com/images/ext/422c32262d4b0e78baa2846473aa0e40.png
-        href: https://{{HOMEPAGE_VAR_FACTORIO_IP}}
+        href: https://{{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
         description: pterodactyl
-        ping: {{HOMEPAGE_VAR_FACTORIO_IP}}
+        ping: {{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
