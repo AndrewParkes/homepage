@@ -2,14 +2,6 @@ version: "3.3"
 services:
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.nginx.rule=Host(`homepage.local.parkes.zip`)"
-      - "traefik.http.routers.nginx.entrypoints=https"
-      - "traefik.http.routers.nginx.tls=true"
-      - "traefik.http.services.nginx.loadbalancer.server.port=3000"
-    networks:
-      - proxy
     container_name: homepage
     ports:
       - 3000:3000
@@ -21,7 +13,3 @@ services:
       PUID: $PUID # read them from .env
       PGID: $PGID # read them from .env
     restart: always
-
-networks:
-  proxy:
-    external: true
