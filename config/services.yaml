@@ -71,3 +71,10 @@
         href: https://{{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
         description: factio server
         ping: {{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
+
+- Other:
+    - lychee:
+        icon: lychee.png
+        href: https://{{HOMEPAGE_VAR_LYCHEE_IP}}
+        description: lychee
+        ping: {{HOMEPAGE_VAR_LYCHEE_IP}}
