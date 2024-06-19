@@ -37,3 +37,7 @@ layout:
     header: false
     style: row
     columns: 4
+  Other:
+    header: false
+    style: row
+    columns: 4
