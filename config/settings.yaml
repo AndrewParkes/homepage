@@ -38,6 +38,6 @@ layout:
     style: row
     columns: 4
   Other:
-    header: false
+    header: true
     style: row
     columns: 4
