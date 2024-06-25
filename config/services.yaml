@@ -54,6 +54,13 @@
         description: cloudflare ddns
         ping: {{HOMEPAGE_VAR_CLOUDFLAREDDNS_IP}}
 
+- Storage:
+    - truenas:
+        icon: truenas.svg
+        href: https://{{HOMEPAGE_VAR_TRUENAS_IP}}
+        description: truenas
+        ping: {{HOMEPAGE_VAR_TRUENAS_IP}}
+
 - Games Portal:
     - pterodactyl:
         icon: pterodactyl.svg
@@ -71,10 +78,10 @@
         href: https://{{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
         description: factio server
         ping: {{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
-
-- Other:
-    - lychee:
-        icon: lychee.png
-        href: https://{{HOMEPAGE_VAR_LYCHEE_IP}}
-        description: lychee
-        ping: {{HOMEPAGE_VAR_LYCHEE_IP}}
+#
+#- Other:
+#    - lychee:
+#        icon: lychee.png
+#        href: https://{{HOMEPAGE_VAR_LYCHEE_IP}}
+#        description: lychee
+#        ping: {{HOMEPAGE_VAR_LYCHEE_IP}}

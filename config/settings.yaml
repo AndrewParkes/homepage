@@ -21,10 +21,10 @@ layout:
     header: true
     style: row
     columns: 4
-  #  Storage:
-  #    header: true
-  #    style: row
-  #    columns: 4
+  Storage:
+    header: true
+    style: row
+    columns: 4
   Home Automation:
     header: true
     style: row
@@ -37,7 +37,7 @@ layout:
     header: false
     style: row
     columns: 4
-  Other:
-    header: true
-    style: row
-    columns: 4
+#  Other:
+#    header: true
+#    style: row
+#    columns: 4
