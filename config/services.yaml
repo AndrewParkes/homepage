@@ -60,6 +60,12 @@
         href: https://{{HOMEPAGE_VAR_TRUENAS_IP}}
         description: truenas
         ping: {{HOMEPAGE_VAR_TRUENAS_IP}}
+        widget:
+          type: truenas
+          url: https://{{HOMEPAGE_VAR_TRUENAS_IP}}
+          key: {{HOMEPAGE_VAR_TRUENAS_API_KEY}}
+          enablePools: true
+          nasType: core
 
 - Games Portal:
     - pterodactyl:
