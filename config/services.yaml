@@ -84,6 +84,11 @@
         href: https://{{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
         description: factio server
         ping: {{HOMEPAGE_VAR_FACTORIOSERVER_IP}}
+    - rustserver:
+        icon: https://i.pinimg.com/originals/cc/40/6a/cc406a8382d8df7eb5f395ec884d3c95.png
+        href: https://{{HOMEPAGE_VAR_RUSTSERVER_IP}}
+        description: rust server
+        ping: {{HOMEPAGE_VAR_RUSTSERVER_IP}}
 #
 #- Other:
 #    - lychee:
